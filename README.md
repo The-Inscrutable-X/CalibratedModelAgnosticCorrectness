@@ -1,5 +1,5 @@
 # General Correctness Models 
-Official Repository for General Correctness Models: Learning calibrated and model-agnostic correctness predictors from historical patterns
+Official Repository for General Correctness Models: Learning Calibrated and Model-Agnostic Correctness Predictors from Historical Patterns [[Paper](https://arxiv.org/abs/2509.24988)]
 
 Authors: [Hanqi Xiao](https://hanqixiao.github.io/), [Vaidehi Patil](https://vaidehi99.github.io/#home), [Hyunji Lee](https://amy-hyunji.github.io/), [Elias Stengel-Eskin](https://esteng.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
 
@@ -95,13 +95,5 @@ Reference Training scripts for Generalized Correctness Models are available in `
 ## Other Evaluation Tools
 The `tuning_models/` directory contains utilities for:
 - `posthoc_calibration.py`: Apply calibration methods to model predictions, access script through `scripts/evaluate_trained_models/postcalibrate_gen.sh`.
-
-Example usage:
-```bash
-python tuning_models/evaluate_training_dataset_performance.py \
-    --file1 results/model_outputs.jsonl \
-    --tokenizer "Qwen/Qwen2.5-7B-Instruct" \
-    --do_accuracy_eval
-```
 
 Evaluation results are automatically saved in the specified `results_dir` for further analysis and comparison.
