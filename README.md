@@ -1,5 +1,5 @@
 # General Correctness Models 
-Official Repository for General Correctness Models: Learning Calibrated and Model-Agnostic Correctness Predictors from Historical Patterns [[Paper](https://arxiv.org/abs/2509.24988)]
+Official Repository for General Correctness Models: Learning Calibrated and Model-Agnostic Correctness Predictors from Historical Patterns [[Paper](https://arxiv.org/abs/2509.24988)] 
 
 Authors: [Hanqi Xiao](https://hanqixiao.github.io/), [Vaidehi Patil](https://vaidehi99.github.io/#home), [Hyunji Lee](https://amy-hyunji.github.io/), [Elias Stengel-Eskin](https://esteng.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
 
@@ -97,3 +97,17 @@ The `tuning_models/` directory contains utilities for:
 - `posthoc_calibration.py`: Apply calibration methods to model predictions, access script through `scripts/evaluate_trained_models/postcalibrate_gen.sh`.
 
 Evaluation results are automatically saved in the specified `results_dir` for further analysis and comparison.
+
+# Citation
+
+```bibtex
+@misc{xiao2025generalizedcorrectnessmodelslearning,
+      title={Generalized Correctness Models: Learning Calibrated and Model-Agnostic Correctness Predictors from Historical Patterns}, 
+      author={Hanqi Xiao and Vaidehi Patil and Hyunji Lee and Elias Stengel-Eskin and Mohit Bansal},
+      year={2025},
+      eprint={2509.24988},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.24988}, 
+}
+```
