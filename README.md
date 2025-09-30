@@ -33,8 +33,30 @@ Download our trained Generalized Correctness Models:
 ### 📊 Training Datasets
 Download the datasets used to train our GCMs:
 
-#### Datasets
-Coming Soon
+#### MMLU Datasets
+| Model | Download Link |
+|-------|---------------|
+| **Meta-Llama-3-70B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Meta--Llama--3--70B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Meta-Llama-3-70B-Instruct) |
+| **gemma-3-27b-it** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--gemma--3--27b--it-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-gemma-3-27b-it) |
+| **Llama-3.1-8B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Llama--3.1--8B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Llama-3.1-8B-Instruct) |
+| **Qwen2.5-3B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Qwen2.5--3B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Qwen2.5-3B-Instruct) |
+| **Qwen2.5-7B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Qwen2.5--7B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Qwen2.5-7B-Instruct) |
+| **Qwen2.5-32B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Qwen2.5--32B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Qwen2.5-32B-Instruct) |
+| **Qwen2.5-72B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Qwen2.5--72B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Qwen2.5-72B-Instruct) |
+| **Qwen3-8B** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--Qwen3--8B-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-Qwen3-8B) |
+
+#### TriviaQA Datasets
+| Model | Download Link |
+|-------|---------------|
+| **gemma-3-27b-it** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--gemma--3--27b--it-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_gemma-3-27b-it) |
+| **Llama-3.1-8B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Llama--3.1--8B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Llama-3.1-8B-Instruct) |
+| **Meta-Llama-3-70B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Meta--Llama--3--70B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Meta-Llama-3-70B-Instruct) |
+| **Qwen2.5-3B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Qwen2.5--3B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Qwen2.5-3B-Instruct) |
+| **Qwen2.5-7B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Qwen2.5--7B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Qwen2.5-7B-Instruct) |
+| **Qwen2.5-32B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Qwen2.5--32B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Qwen2.5-32B-Instruct) |
+| **Qwen2.5-72B-Instruct** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Qwen2.5--72B--Instruct-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Qwen2.5-72B-Instruct) |
+| **Qwen3-8B** | [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-GCM--dataset--TriviaQA--Qwen3--8B-blue)](https://huggingface.co/datasets/Hanqix/GCM-dataset-TriviaQA_Qwen3-8B) |
+
 ### 📥 Usage
 After downloading, place the datasets in your `results_dir` and models in your preferred directory. Update the paths in your evaluation scripts accordingly.
 
@@ -68,10 +90,9 @@ model_to_evals=(model_to_evaluate)
 ```
 
 ## Train Models
-Training scripts for Generalized Correctness Models are available in `scripts/train_generalized_correctness_model/`.
+Reference Training scripts for Generalized Correctness Models are available in `scripts/train_generalized_correctness_model/`, please use `tuning_models/merge_datasets.py` to merge the datasets you want to use to train a GCM.
 
 ## Other Evaluation Tools
-
 The `tuning_models/` directory contains utilities for:
 - `posthoc_calibration.py`: Apply calibration methods to model predictions, access script through `scripts/evaluate_trained_models/postcalibrate_gen.sh`.
 

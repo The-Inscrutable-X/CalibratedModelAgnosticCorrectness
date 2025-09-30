@@ -23,7 +23,6 @@ eval_device="0,1,2,3"
 model_to_trains=("Qwen3-8B")
 calibration_types=("spline_calibration" "isotonic_regression")
 ntrain=0
-# epoch=1
 epochs=(1)
 t_batch=1
 rank=32
@@ -32,7 +31,7 @@ k_retrieves=(0)
 reward_functions=("none")
 gradient_accumulation_steps=4
 
-accelerate_config="scripts/configs/GPUn4DeepspeedZero2.yaml"
+accelerate_config="scripts/configs/GPUn4DeepspeedZero2.yaml" #Replace with your own dataset
 echo "Accelerate config file content:"
 cat $accelerate_config
 echo ""

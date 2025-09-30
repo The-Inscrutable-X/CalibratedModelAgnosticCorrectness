@@ -8,7 +8,6 @@ __pycache__/
 /scripts/posthoc_calibration/
 /scripts/reasoning_and_calibration_replication/
 /scripts/train_specific_correctness_model/
-/tuning_models/merge_datasets.py
 /tuning_models/evaluate_training_dataset_performance.py
 /scripts/train_generalized_correctness_model/todo/
 /tuning_models/selective_prediction/
